@@ -42,8 +42,8 @@ pip install -r requirements.txt
 
 ### Configurer la base de données
 
-Installer PostgreSQL en fonction de votre OS : https://www.postgresql.org/download/
-puis créer une base de données au nom choisi dans DATABASE_URI de votre fichier .env.
+La base de données est db.sqlite3
+Elle est créée avec la commande :
 
 ```bash
 python manage.py migrate
